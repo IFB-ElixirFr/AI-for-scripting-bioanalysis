@@ -1,29 +1,27 @@
-# Colloque Utilisation des IA génératives comme appui à la programmation et au scripting pour la biologie
-
-Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 
 <table border="0" cellpadding="20" style="width: 100%;" align="center">
   <tr>
     <td align="center">
-      <img src="images/IFB-logo.png" alt="IFB" height="120">
+      <img src="images/IFB-logo.png" alt="IFB" height="80">
     </td>
     <td align="center">
-      <img src="images/ELIXIR-France_logo.png" alt="ELIXIR-FR" height="120">
-    </td>
-    
-    <td align="center">
-      <img src="images/MERIT-logo.png" alt="MERIT" height="120">
+      <img src="images/ELIXIR-France_logo.png" alt="ELIXIR-FR" height="80">
     </td>
     <td align="center">
-      <img src="images/iPOP-up_logo.png" alt="iPOP-up" height="100">
+      <img src="images/MERIT-logo.png" alt="MERIT" height="80">
     </td>
     <td align="center">
-      <img src="images/images/U-Paris-Cite-logo.png" alt="Université Paris-Cité" height="100">
+      <img src="images/iPOP-up_logo.png" alt="iPOP-up" height="75">
+    </td>
+    <td align="center">
+      <img src="images/U-Paris-Cite-logo.png" alt="Université Paris-Cité" height="75">
     </td>
   </tr>
 </table>
 
+# Colloque Utilisation des IA génératives comme appui à la programmation et au scripting pour la biologie
 
+Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 
 ## Exposés du matin
 
