@@ -6,6 +6,8 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 
 - [Enoncé de l'exercice (en anglais)](exercise)
 
+----
+
 ## Organisation
 
 Le colloque est organisé et financé par les trois organisations suivantes :
