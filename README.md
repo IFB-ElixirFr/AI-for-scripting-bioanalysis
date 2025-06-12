@@ -2,9 +2,13 @@
 
 Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 
-## Atelier 1 "Scripting pour la bioanalyse"
+## Atelier 1 : Scripting pour la bioanalyse
 
 - [Enoncé de l'exercice (en anglais)](exercise)
+
+## Atelier 2 : Développement logiciel pour la biologie
+
+- <https://ifb-elixirfr.github.io/IA-BioSoftware-Atelier/>
 
 ----
 
