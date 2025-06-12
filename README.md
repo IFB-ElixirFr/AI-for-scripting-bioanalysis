@@ -5,7 +5,7 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 ## Exposés du matin
 
 | Intervenant | Titre | Diaporama |
-|:----------|:------------------------------------|:----:]
+|----------|------------------------------------|:----:|
 | Nicolas Sabouret | Retour d’exp´erience sur l’utilisation de Github Copilot en cours de programmation | [pdf](slides/1-5_Nicolas-Sabouret_copilot-paris-cite_2025-06-13.pdf) |
 | Sandrine Caburet | Adaptation pédagogique d’un pipeline RNAseq par Devin | [pdf](slides/2-1_Sandrine-Caburet-Devin_2025-06-13.pdf) |
 | Vincent Ranwez | Accélérer sans déraper : maîtriser son code à l’ère de l’IA | [pdf](slides/2-3_Vincent-Ranwez_IA-bioscripting_2025-06-13.pdf) |
