@@ -14,10 +14,10 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 
 ## Comité scientifique et de programmation
 
-- Bertrand Cosson (Université Paris-Cité)
-- Jacques van Helden (Institut Français de Bioinformatique)
-- Vincent Lefort (réseau MERIT)
-- Imane Messak (Institut Français de Bioinformatique)
+- [Bertrand Cosson](https://orcid.org/0000-0003-3401-7137) (Université Paris-Cité)
+- [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique)
+- [Vincent Lefort](https://orcid.org/0000-0003-2864-4783) (réseau MERIT)
+- [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
 
 ## Encadrants
 
