@@ -1,19 +1,19 @@
-<table style="width: 100%; border: none;" cellpadding="20" align="center">
+<table style="border: none;" cellpadding="20" align="center">
   <tr>
     <td align="center">
-      <img src="images/IFB-logo.png" alt="IFB" height="100">
+      <img src="images/IFB-logo.png" alt="IFB" style="height: 80px; width: auto;">
     </td>
     <td align="center">
-      <img src="images/ELIXIR-France_logo.png" alt="ELIXIR-FR" height="80">
+      <img src="images/ELIXIR-France_logo.png" alt="ELIXIR-FR" style="height: 80px; width: auto;">
     </td>
     <td align="center">
-      <img src="images/MERIT-logo.png" alt="MERIT" height="75">
+      <img src="images/MERIT-logo.png" alt="MERIT" style="height: 80px; width: auto;">
     </td>
     <td align="center">
-      <img src="images/iPOP-up_logo.png" alt="iPOP-up" height="75">
+      <img src="images/iPOP-up_logo.png" alt="iPOP-up" style="height: 80px; width: auto;">
     </td>
     <td align="center">
-      <img src="images/U-Paris-Cite-logo.png" alt="Université Paris-Cité" height="75">
+      <img src="images/U-Paris-Cite-logo.png" alt="Université Paris-Cité" style="height: 80px; width: auto;">
     </td>
   </tr>
 </table>
