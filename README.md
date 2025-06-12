@@ -1,14 +1,13 @@
-
-<table border="0" cellpadding="20" style="width: 100%;" align="center">
+<table style="width: 100%; border: none;" cellpadding="20" align="center">
   <tr>
     <td align="center">
-      <img src="images/IFB-logo.png" alt="IFB" height="80">
+      <img src="images/IFB-logo.png" alt="IFB" height="100">
     </td>
     <td align="center">
       <img src="images/ELIXIR-France_logo.png" alt="ELIXIR-FR" height="80">
     </td>
     <td align="center">
-      <img src="images/MERIT-logo.png" alt="MERIT" height="80">
+      <img src="images/MERIT-logo.png" alt="MERIT" height="75">
     </td>
     <td align="center">
       <img src="images/iPOP-up_logo.png" alt="iPOP-up" height="75">
