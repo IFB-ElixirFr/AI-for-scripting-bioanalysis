@@ -1,0 +1,6 @@
+/* Override for jekyll-theme-minimal layout */
+.wrapper {
+  max-width: 1200px; /* Default is 800px — increase to desired width */
+  width: 90%;
+  margin: auto;
+}
