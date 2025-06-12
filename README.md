@@ -29,7 +29,7 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 | Site Web | Support du colloque (sur github pages) | <https://ifb-elixirfr.github.io/AI-for-scripting-bioanalysis/> |
 | Plateforme numérique Pléiade | IA génératives utilisées pour les ateliers pratiques de l'après-midi | <https://pleiade.mi.parisdescartes.fr/> |
 | Cluster IFB-core | Environnement OnDemand (RStudio, JupyterHub) à disposition des participants pour les ateliers pratiques | <https://ondemand.cluster.france-bioinformatique.fr/> |
-| Cluster IFB-core | demande de compte ou d'espace-projet (pas nécessaire pour l'atelier, utile uniquement si vous désirez continuer à utiliser le cluster après la formation)	| <https://my.cluster.france-bioinformatique.fr/> |
+| Cluster IFB-core | demande de compte ou d'espaces-projets ; *des comptes temporaires seront fournis pour les ateliers pratiques, ce lien est utile uniquement si vous désirez continuer à utiliser le cluster après le colloque*	| <https://my.cluster.france-bioinformatique.fr/> |
 
 
 ----
