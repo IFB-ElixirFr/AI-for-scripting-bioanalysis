@@ -42,6 +42,5 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 
 ----
 
-Maintained by [Jacques van Helden](https://orcid.org/0000-0002-4516-6509) (Institut Français de Bioinformatique; Aix-Marseille Université)
-[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--4516--6509-a6ce39?logo=orcid&style=flat-square)](https://orcid.org/0000-0002-4516-6509)
+Maintained by [Jacques van Helden](https://orcid.org/0000-0002-4516-6509) [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--4516--6509-a6ce39?logo=orcid&style=flat-square)](https://orcid.org/0000-0002-4516-6509)
 
