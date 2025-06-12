@@ -19,7 +19,7 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 ## Comité scientifique et de programmation
 
 - [Bertrand Cosson](https://orcid.org/0000-0003-3401-7137) (Université Paris-Cité)
-- [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique)
+- [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique, Aix-Marseille Université) 
 - [Vincent Lefort](https://orcid.org/0000-0003-2864-4783) (réseau MERIT)
 - [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
 
@@ -27,13 +27,19 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 
 ### Atelier scripting pour la bioanalyse
 
-- Jacques van Helden (Institut Français de Bioinformatique)
-- Vincent Ranwez (Université de Montpellier)
-- Fanny Casse (Université Paris-Cité)
-- Gaëlle Lelandais (Université Paris-Sud)
-- Pierre Poulain (Université Paris-Cité)
+- [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique, Aix-Marseille Université) 
+- [Vincent Ranwez](https://orcid.org/0000-0002-9308-7541) ([Institut Agro Montpellier](https://www.institut-agro-montpellier.fr/))
+- [Fanny Casse](https://orcid.org/0000-0002-1196-2243) (Université Paris-Cité)
+- [Gaëlle Lelandais](https://orcid.org/0000-0002-2842-6172) (Université Paris-Sud)
+- [Pierre Poulain](https://orcid.org/0000-0003-4177-3619) (Université Paris-Cité)
 
 ## Atelier développement logiciel
-- Imane Messak (Institut Français de Bioinformatique)
-- Thomas Denecker (Institut Français de Bioinformatique)
-- Baptiste Rousseau (Institut Français de Bioinformatique)
+- [Thomas Denecker](https://orcid.org/0000-0003-1421-7641) (Institut Français de Bioinformatique)
+- [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
+- [Baptiste Rousseau](https://orcid.org/0009-0002-1723-2732) (Institut Français de Bioinformatique)
+
+----
+
+Maintained by [Jacques van Helden](https://orcid.org/0000-0002-4516-6509) (Institut Français de Bioinformatique; Aix-Marseille Université)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--4516--6509-a6ce39?logo=orcid&style=flat-square)](https://orcid.org/0000-0002-4516-6509)
+
