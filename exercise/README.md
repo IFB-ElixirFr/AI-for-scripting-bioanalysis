@@ -3,7 +3,8 @@
 
 ## 🎯 Objectives
 
-The aim of this exercise is to explore the ability of generative AI models to assist in coding a simple, real-world biological data analysis task. Participants will prompt a generative AI (such as ChatGPT, Gemini, Claude, or another of their choice) to generate a complete and reproducible analysis script. 
+The aim of this exercise is to explore the ability of generative AI models to assist in coding a simple, real-world biological data analysis task. 
+Participants will prompt a generative AI (such as Mistral, ChatGPT, Gemini, Claude, or another of their choice) to generate a complete and reproducible analysis script. 
 
 The focus is not on solving the task yourself, but on interacting effectively with the AI to generate high-quality code that performs the desired analysis.
 
@@ -11,7 +12,7 @@ At the end of the exercise, participants will critically assess the usefulness o
 
 ---
 
-## 🧬 Dataset
+## 🧬 Datasets
 
 You will be given a tabular biological dataset (e.g., phenotypic data, sample metadata, microbial counts, protein properties, etc.). The dataset will be designed to be easily understood **without requiring in-depth domain knowledge**.
 
