@@ -18,26 +18,6 @@
   </tr>
 </table>
 
-<table style="width: 800px; border: none;" cellpadding="10" align="center">
-  <tr>
-    <td align="center">
-      <img src="images/iPOP-up_logo.png" alt="iPOP-up" style="height: 60px; width: auto;">
-    </td>
-    <td align="center">
-      <img src="images/U-Paris-Cite-logo.png" alt="Université Paris-Cité" style="height: 60px; width: auto;">
-    </td>
-    <td align="center">
-      <img src="images/IFB-logo.png" alt="IFB" style="height: 65px; width: auto;">
-    </td>
-    <td align="center">
-      <img src="images/ELIXIR-France_logo.png" alt="ELIXIR-FR" style="height: 60px; width: auto;">
-    </td>
-    <td align="center">
-      <img src="images/MERIT-logo.png" alt="MERIT" style="height: 50px; width: auto;">
-    </td>
-  </tr>
-</table>
-
 
 # Colloque : Utilisation des IA génératives comme appui à la programmation et au scripting pour la biologie
 
