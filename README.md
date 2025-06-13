@@ -1,3 +1,24 @@
+<style>
+  /* Main wrapper: make it wider */
+  .wrapper {
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+  }
+
+  /* Left sidebar (site title + author) */
+  header {
+    width: 180px;
+    float: left;
+  }
+
+  /* Right panel: main content */
+  section {
+    margin-left: 200px; /* must be wider than sidebar */
+    max-width: none;     /* remove width limit */
+    width: auto;
+  }
+</style>
 
 <table style="border: none;" cellpadding="10" align="center">
   <tr>
