@@ -1,4 +1,5 @@
-<table style="width: 100%; table-layout: fixed; border: none;" cellpadding="10" align="center">
+
+<table style="border: none;" cellpadding="10" align="center">
   <tr>
     <td align="center" style="min-width: 120px;">
       <img src="images/iPOP-up_logo.png" alt="iPOP-up" style="height: 60px; width: auto;">
@@ -38,7 +39,8 @@
   </tr>
 </table>
 
-<table style="width: 800; border: none;" cellpadding="10" align="center">
+
+<table style="width: 800px; border: none;" cellpadding="10" align="center">
   <tr>
     <td align="center">
       <img src="images/iPOP-up_logo.png" alt="iPOP-up" style="height: 60px; width: auto;">
@@ -57,6 +59,7 @@
     </td>
   </tr>
 </table>
+
 
 # Colloque Utilisation des IA génératives comme appui à la programmation et au scripting pour la biologie
 
