@@ -1,3 +1,4 @@
+
 title: AI for bioscripting
 description: >
   A hands-on exercise to explore the use of generative AI for writing scripts
@@ -6,4 +7,4 @@ description: >
 author: Jacques van Helden  
 author_url: https://orcid.org/0000-0002-4516-6509
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal-mistakes
