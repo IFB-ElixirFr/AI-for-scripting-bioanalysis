@@ -1,4 +1,4 @@
-<table style="width: 100%; border: none;" cellpadding="10" align="center">
+<table style="width: 800; border: none;" cellpadding="10" align="center">
   <tr>
     <td align="center">
       <img src="images/iPOP-up_logo.png" alt="iPOP-up" style="height: 60px; width: auto;">
