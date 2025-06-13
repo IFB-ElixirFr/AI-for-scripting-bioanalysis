@@ -1,12 +1,14 @@
 <style>
-  .wrapper {
-    max-width: 1200px;
-    width: 90%;
-    margin: auto;
+  .logo-table img {
+    height: 75px;
+    object-fit: contain;
+  }
+  .logo-table td {
+    padding: 10px;
   }
 </style>
 
-<table style="border: none;" cellpadding="20" align="center">
+<table class="logo-table" align="center">
   <tr>
     <td align="center">
       <img src="images/iPOP-up_logo.png" alt="iPOP-up" style="height: 60px; width: auto;">
