@@ -28,9 +28,9 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 | Intervenant | Titre | Diaporama |
 |----------|------------------------------------|:----:|
 | Bertrand Cosson et Jacques van Helden | Introduction au colloque et aux ateliers pratiques | [pdf](slides/1-1_intro_colloque-IA_2025-06-13.pdf) |
-| Nicolas Sabouret | Retour d’expérience sur l'utilisation de Github Copilot en cours de programmation | [pdf](slides/1-5_Nicolas-Sabouret_copilot-paris-cite_2025-06-13.pdf) |
+| Nicolas Sabouret | Retour d’expérience sur l'utilisation de Github Copilot en cours de programmation | [pdf](slides/1-5_Nicolas-Sabouret_copilot-paris-cite_2025-06-13.pdf) |
 | Sandrine Caburet | Adaptation pédagogique d'un pipeline RNAseq par Devin | [pdf](slides/2-1_Sandrine-Caburet-Devin_2025-06-13.pdf) |
-| Vincent Ranwez | Accélérer sans déraper : maîtriser son code à l’ère de l’IA | [pdf](slides/2-3_Vincent-Ranwez_IA-bioscripting_2025-06-13.pdf) |
+| Vincent Ranwez | Accélérer sans déraper : maîtriser son code à l’ère de l’IA | [pdf](slides/2-3_Vincent-Ranwez_IA-bioscripting_2025-06-13.pdf) |
 
 ## Atelier 1 : Scripting pour la bioanalyse
 
@@ -51,7 +51,7 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 | Site Web | Support du colloque (sur github pages) | <https://ifb-elixirfr.github.io/AI-for-scripting-bioanalysis/> |
 | Plateforme numérique Pléiade | IA génératives utilisées pour les ateliers pratiques de l'après-midi | <https://pleiade.mi.parisdescartes.fr/> |
 | Cluster IFB-core | Environnement OnDemand (RStudio, JupyterHub) à disposition des participants pour les ateliers pratiques | <https://ondemand.cluster.france-bioinformatique.fr/> |
-| Cluster IFB-core | demande de compte ou d'espaces-projets ; *des comptes temporaires seront fournis pour les ateliers pratiques, ce lien est utile uniquement si vous désirez continuer à utiliser le cluster après le colloque*	| <https://my.cluster.france-bioinformatique.fr/> |
+| Cluster IFB-core | demande de compte ou d'espaces-projets ; *des comptes temporaires seront fournis pour les ateliers pratiques, ce lien est utile uniquement si vous désirez continuer à utiliser le cluster après le colloque*	| <https://my.cluster.france-bioinformatique.fr/> |
 
 
 ----
