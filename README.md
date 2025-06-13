@@ -30,7 +30,7 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 | Bertrand Cosson et Jacques van Helden | Introduction au colloque et aux ateliers pratiques | [pdf](slides/1-1_intro_colloque-IA_2025-06-13.pdf) |
 | David Janiszek | Outils IA pour le scripting et le codage : évolution et perspectives	 | |
 | Guillaume Gautreau | Utilisation de grands modèles de langage génomique	 | [pdf](slides/1-3_Guillaume-Gautreau.pdf) |
-| Pierre Poulain | Utilisation d’IA générative dans un processus pédagogique	 | |
+| Pierre Poulain | Utilisation d’IA générative dans un processus pédagogique	 | [pdf](slides/1-4_Pierre-Poulain_IA-pedagogie_2025-06-13.pdf) |
 | Nicolas Sabouret | Retour d’expérience sur l'utilisation de Github Copilot en cours de programmation | [pdf](slides/1-5_Nicolas-Sabouret_copilot-paris-cite_2025-06-13.pdf) |
 | Sandrine Caburet | Adaptation pédagogique d'un pipeline RNAseq par Devin | [pdf](slides/2-1_Sandrine-Caburet-Devin_2025-06-13.pdf) |
 | David Janisek | Présentation de Pléïade | |
