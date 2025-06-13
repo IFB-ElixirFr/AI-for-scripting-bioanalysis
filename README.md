@@ -35,6 +35,7 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 ## Atelier 1 : Scripting pour la bioanalyse
 
 - [Enoncé de l'exercice (en anglais)](exercise)
+- Jeu de données de test : expression des gènes humains dans 16 tissus (<https://www.ebi.ac.uk/gxa/experiments/E-MTAB-513/Downloads>). 
 
 ## Atelier 2 : Développement logiciel pour la biologie
 
