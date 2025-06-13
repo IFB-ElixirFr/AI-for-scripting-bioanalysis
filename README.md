@@ -36,12 +36,22 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 | David Janisek | Présentation de Pléïade | |
 | Vincent Ranwez | Accélérer sans déraper : maîtriser son code à l’ère de l’IA | [pdf](slides/2-3_Vincent-Ranwez_IA-bioscripting_2025-06-13.pdf) |
 
-## Atelier 1 : Scripting pour la bioanalyse
+## Ateliers pratiques de l'après-midi
 
-- [Enoncé de l'exercice (en anglais)](exercise)
-- Jeu de données de test : expression des gènes humains dans 16 tissus (<https://www.ebi.ac.uk/gxa/experiments/E-MTAB-513/Downloads>). 
+### Diaporama d'introduction
 
-## Atelier 2 : Développement logiciel pour la biologie
+[3-1_acces-ressources-numeriques_atelier-IA-soft-biologie.pdf](slides/3-1_acces-ressources-numeriques_atelier-IA-soft-biologie.pdf)
+
+- introduction aux ateliers pratiques
+- accès aux ressources numériques utilisés pour la pratique
+- présentation des deux ateliers
+
+### Atelier 1 : Scripting pour la bioanalyse
+
+<!-- - [Enoncé de l'exercice (en anglais)](exercise)-->
+- [Jeu de données de test](data/yeast-transcriptome-cell-cycle) : profils transcriptomiques montrant des fluctuations périodiques durant le cycle cellulaire de la levure
+
+### Atelier 2 : Développement logiciel pour la biologie
 
 - <https://ifb-elixirfr.github.io/IA-BioSoftware-Atelier/>
 
