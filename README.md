@@ -98,7 +98,8 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 [![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
-
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
 
 Maintained by [Jacques van Helden](https://orcid.org/0000-0002-4516-6509) [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--4516--6509-a6ce39?logo=orcid&style=flat-square)](https://orcid.org/0000-0002-4516-6509)
 
