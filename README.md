@@ -49,7 +49,7 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 ### Atelier 1 : Scripting pour la bioanalyse
 
 <!-- - [Enoncé de l'exercice (en anglais)](exercise)-->
-- Jeu de données de test : profils transcriptomiques montrant des fluctuations périodiques durant le cycle cellulaire de la levure
+- [Jeu de données de test](data/yeast-transcriptome-cell-cycle) : profils transcriptomiques montrant des fluctuations périodiques durant le cycle cellulaire de la levure
 
 ### Atelier 2 : Développement logiciel pour la biologie
 
