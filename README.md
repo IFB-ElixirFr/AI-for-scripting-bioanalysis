@@ -1,4 +1,4 @@
-<table style="border: none;" cellpadding="20" align="center">
+<table style="width: 100%; border: none;" cellpadding="10" align="center">
   <tr>
     <td align="center">
       <img src="images/iPOP-up_logo.png" alt="iPOP-up" style="height: 60px; width: auto;">
@@ -43,7 +43,7 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 ## Ressources numériques
 
 | Ressource | Description | URL |
-|-----------|---------------------------|-------------------------------|
+|-----------|----------------------------------------------|-------------------------------|
 | Programme et inscriptions | Sur Sciencesconf |	https://iabioscripting.sciencesconf.org/ |
 | Site Web | Support du colloque (sur github pages) | <https://ifb-elixirfr.github.io/AI-for-scripting-bioanalysis/> |
 | Plateforme numérique Pléiade | IA génératives utilisées pour les ateliers pratiques de l'après-midi | <https://pleiade.mi.parisdescartes.fr/> |
