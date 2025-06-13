@@ -61,7 +61,7 @@
 </table>
 
 
-# Colloque Utilisation des IA génératives comme appui à la programmation et au scripting pour la biologie
+# Colloque : Utilisation des IA génératives comme appui à la programmation et au scripting pour la biologie
 
 Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 
