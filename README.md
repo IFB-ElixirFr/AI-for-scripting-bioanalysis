@@ -1,26 +1,4 @@
-<style>
-  /* Main wrapper: make it wider */
-  .wrapper {
-    max-width: 1200px;
-    width: 95%;
-    margin: auto;
-  }
-
-  /* Left sidebar (site title + author) */
-  header {
-    width: 180px;
-    float: left;
-  }
-
-  /* Right panel: main content */
-  section {
-    margin-left: 200px; /* must be wider than sidebar */
-    max-width: none;     /* remove width limit */
-    width: auto;
-  }
-</style>
-
-<table style="border: none;" cellpadding="10" align="center">
+<table style="width: 100%; border: none;" cellpadding="10" align="center">
   <tr>
     <td align="center">
       <img src="images/iPOP-up_logo.png" alt="iPOP-up" style="height: 60px; width: auto;">
