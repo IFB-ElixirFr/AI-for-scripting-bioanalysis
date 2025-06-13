@@ -1,3 +1,11 @@
+<style>
+  .wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+  }
+</style>
+
 <table style="border: none;" cellpadding="20" align="center">
   <tr>
     <td align="center">
