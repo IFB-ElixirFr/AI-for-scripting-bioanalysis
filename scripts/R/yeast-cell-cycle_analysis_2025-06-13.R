@@ -396,9 +396,6 @@ plot_expression_heatmap(df_col_sorted_2, title = "Sorted by Expression (2nd Colu
 plot_expression_heatmap(df_pca_sorted, title = "Sorted by PCA Component 1")
 plot_expression_heatmap(df_fft_sorted, title = "Sorted by FFT Phase")
 
-# dim(df)
-# View(normalized_df)
-
 # Save heatmaps to PNG with 1 pixel per gene
 plot_expression_heatmap_to_png(df_col_sorted_1, "heatmap_sorted_by_column_1.png",
                                title = "Sorted by Expression (1st Column)")
