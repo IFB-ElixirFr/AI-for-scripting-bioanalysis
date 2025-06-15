@@ -86,6 +86,8 @@ L'Institut Français de Bioinformatique (IFB) a été fondé par les Programme d
 - [Jacques van Helden](https://orcid.org/0000-0002-8799-8584) (Institut Français de Bioinformatique, Aix-Marseille Université) 
 - [Vincent Lefort](https://orcid.org/0000-0003-2864-4783) (réseau MERIT)
 - [Imane Messak](https://orcid.org/0000-0002-1654-6652) (Institut Français de Bioinformatique)
+- [Thomas Denecker](https://orcid.org/0000-0003-1421-7641) (Institut Français de Bioinformatique)
+
 
 ## Encadrants
 
