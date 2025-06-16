@@ -126,7 +126,7 @@ download_and_check_dataset <- function(url, target_dir, filename) {
   
   # Download the file (overwrite = TRUE ensures re-download if needed)
   
-###  download.file(url, destfile = file_path, mode = "wb")
+  download.file(url, destfile = file_path, mode = "wb")
   
   # Check if the file exists and is not empty
   if (!file_exists(file_path)) {
