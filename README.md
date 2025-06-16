@@ -33,12 +33,12 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 | Pierre Poulain | Utilisation d’IA générative dans un processus pédagogique	 | [pdf](slides/1-4_Pierre-Poulain_IA-pedagogie_2025-06-13.pdf) |
 | Nicolas Sabouret | Retour d’expérience sur l'utilisation de Github Copilot en cours de programmation | [pdf](slides/1-5_Nicolas-Sabouret_copilot-paris-cite_2025-06-13.pdf) |
 | Sandrine Caburet | Adaptation pédagogique d'un pipeline RNAseq par Devin | [pdf](slides/2-1_Sandrine-Caburet-Devin_2025-06-13.pdf) |
-| David Janisek | Présentation de Pléïade | |
+| David Janisek | Présentation de Pléïade | Démo en direct |
 | Vincent Ranwez | Accélérer sans déraper : maîtriser son code à l’ère de l’IA | [pdf](slides/2-3_Vincent-Ranwez_IA-bioscripting_2025-06-13.pdf) |
 
 ## Ateliers pratiques de l'après-midi
 
-### Diaporama d'introduction
+### Diaporama d'introduction aux deux ateliers
 
 [3-1_acces-ressources-numeriques_atelier-IA-soft-biologie.pdf](slides/3-1_acces-ressources-numeriques_atelier-IA-soft-biologie.pdf)
 
@@ -48,8 +48,11 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 
 ### Atelier 1 : Scripting pour la bioanalyse
 
-<!-- - [Enoncé de l'exercice (en anglais)](exercise)-->
+- [Enoncé de l'exercice (en anglais)](exercise_yeast-cell-cycle)
 - [Jeu de données de test](data/yeast-transcriptome-cell-cycle) : profils transcriptomiques montrant des fluctuations périodiques durant le cycle cellulaire de la levure
+- [Dialogue avec l'IA générative](scripts/R/yeast-cell-cycle_ChatGPT-prompting.html)
+- [R markdown pour exécuter les étapes du dialogue avec l'IA générative](scripts/R/yeast-cell-cycle_ChatGPT-prompting.Rmd)
+- [Script R obtenu à la fin de la session pratique](scripts/R/yeast-cell-cycle_analysis_2025-06-13.R)
 
 ### Atelier 2 : Développement logiciel pour la biologie
 
