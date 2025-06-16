@@ -1,0 +1,142 @@
+---
+title: "ChatGPT dialog to implement a script to analyse transcriptomic profiles of yeast genes"
+output: html_document
+---
+
+# ChatGPT prompting for the workshop "Using geneerative AI to implement a script for bioanalysis"
+
+This file reproduces the dialog between the teacher (Jacques van Helden) and a generative AI (ChatGPT) 
+to generate an R script to reproduce a figure from an article about a transcriptomic analysis of yeast cell cycle. 
+
+
+## Prompting 
+
+ChatGPT chat (made discoverable on June 15, 2025, I don't know how long it will remain available). 
+
+- <https://chatgpt.com/share/684efb6e-4d00-8000-9bc4-2a618913e9d0>
+
+
+>Hi, I would like to write a script to download and analyse a tabular dataset.
+>I would like to proceed by steps, and, for each step
+>
+>- write a function that runs the task corresponding to this step
+>- write a unit test to make sure that this steps worked
+>
+>I will first try this in R (I will also do it later in Python).
+>
+>Some general recommendations :
+>
+- each function should be properly documented (in roxygen2 or another recommended standard)
+- the code should be properly documented (explain the underlying logics)
+- the code should be well structured, with separate functions for each task, and a section to specify the parameters. 
+>
+>Here is the first step: download a tab-separated file available at this URL: 
+>
+> https://ifb-elixirfr.github.io/AI-for-scripting-bioanalysis/data/yeast-transcriptome-cell-cycle/oscillating-genes_normalized-profiles.tsv
+>
+>The R script should
+>
+>- create a directory in my home, entitled “yeast-cell-cycle-analysis”
+>- download the file
+>- check that the file has been downloaded (test its presence in the directory, and check that it is not empty)
+>
+>Can you write the code to do this ?
+>
+>I will tell you later the next steps
+
+
+Here is a clean and well-structured R script for Step 1: downloading and checking a dataset. The code includes:
+
+- A function to perform the task
+- A test function to verify the step worked
+- Proper documentation using roxygen2 format
+- Clear parameter section and inline comments
+
+
+
+### Directory structure suggestion:
+
+Place your script in a file such as `01_download_data.R`, and later you can add 02_analyse_data.R, etc.
+
+***Note: I name the script differently because I already know its general purpose, which I did not tell yet to ChatGPT.***
+
+### ✅ Code for Step 1
+
+```{r result=TRUE}
+
+# Load necessary libraries
+if (!requireNamespace("fs", quietly = TRUE)) install.packages("fs")
+library(fs)
+
+# ---- Parameters ----
+DATA_URL <- "https://ifb-elixirfr.github.io/AI-for-scripting-bioanalysis/data/yeast-transcriptome-cell-cycle/oscillating-genes_normalized-profiles.tsv"
+HOME_DIR <- path_home()
+ANALYSIS_DIR <- path(HOME_DIR, "yeast-cell-cycle-analysis")
+FILENAME <- "oscillating-genes_normalized-profiles.tsv"
+FILE_PATH <- path(ANALYSIS_DIR, FILENAME)
+
+# ---- Functions ----
+
+#' Download and check yeast cell cycle dataset
+#'
+#' This function creates a target directory in the user's home folder,
+#' downloads a tab-separated file from a public URL, and checks its presence and size.
+#'
+#' @param url The URL of the dataset to download.
+#' @param target_dir The directory where the file should be saved.
+#' @param filename The name to save the downloaded file as.
+#' @return The path of the downloaded file if successful, otherwise throws an error.
+#' @export
+download_and_check_dataset <- function(url, target_dir, filename) {
+  # Create the target directory if it doesn't exist
+  if (!dir_exists(target_dir)) {
+    dir_create(target_dir)
+  }
+  
+  # Define the full path for the output file
+  file_path <- path(target_dir, filename)
+  
+  # Download the file (overwrite = TRUE ensures re-download if needed)
+  download.file(url, destfile = file_path, mode = "wb")
+  
+  # Check if the file exists and is not empty
+  if (!file_exists(file_path)) {
+    stop("File was not downloaded.")
+  }
+  if (file_info(file_path)$size == 0) {
+    stop("Downloaded file is empty.")
+  }
+  
+  return(file_path)
+}
+
+#' Unit test for dataset download function
+#'
+#' Tests that the file was correctly downloaded and is not empty.
+#' Prints success message if test passes, otherwise stops.
+#'
+#' @return NULL (invisible), throws error if test fails
+#' @export
+test_download_and_check_dataset <- function() {
+  cat("Running test for download_and_check_dataset...\n")
+  file_path <- download_and_check_dataset(DATA_URL, ANALYSIS_DIR, FILENAME)
+  
+  if (!file_exists(file_path)) {
+    stop("Test failed: File does not exist.")
+  }
+  if (file_info(file_path)$size == 0) {
+    stop("Test failed: File is empty.")
+  }
+  
+  cat("✅ Test passed: File downloaded and is not empty.\n")
+  invisible(NULL)
+}
+
+# ---- Run test ----
+test_download_and_check_dataset()
+
+```
+
+
+
+
