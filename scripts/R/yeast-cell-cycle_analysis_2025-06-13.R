@@ -94,7 +94,8 @@ test_download_and_check_dataset <- function() {
 #' @export
 load_dataset <- function(file_path) {
   # read_tsv automatically handles headers and parses columns
-  # 
+  #   df <- read_tsv(file_path, col_types = cols())
+
   # The following line was manually implemented by Jacques van Helden, 
   # because the initial code was not working, read_tsv was merging the 
   # two last columsns into a single one. After several unsuccessful attempts 
