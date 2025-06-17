@@ -90,7 +90,7 @@ Place your script in a file such as `01_download_data.R`, and later you can add 
 
 #### ✅ Code for Step 1
 
-```{r result=TRUE}
+```{r download_data}
 
 # Load necessary libraries
 if (!requireNamespace("fs", quietly = TRUE)) install.packages("fs")
@@ -190,7 +190,7 @@ Perfect. Here's the next step of your R script, following the same structure: a 
 
 #### ✅ Functions to add:
 
-```{r} 
+```{r load_data_function} 
 # ---- Additional Libraries ----
 if (!requireNamespace("readr", quietly = TRUE)) install.packages("readr")
 library(readr)
@@ -237,7 +237,7 @@ test_dataset_dimensions <- function(df) {
 #### 🔚 Add this at the end of your script to run step 2
 
 
-```{r}
+```{r load_data}
 # ---- Run Step 2 ----
 df <- load_dataset(FILE_PATH)
 test_dataset_dimensions(df)
@@ -261,7 +261,7 @@ Yes, absolutely — if the first column contains row names (e.g., gene identifie
 
 #### ✅ Modified load_dataset() function:
 
-```{r}
+```{r load_data_function_2}
 #' Load the dataset from file, using first column as row names
 #'
 #' Loads a tab-separated values (TSV) file into a data frame, treating the first column
@@ -287,7 +287,7 @@ load_dataset <- function(file_path) {
 
 #### ✅ Modified test function (no change needed):
 
-```{r}
+```{r load_data_unit_test}
 #' Unit test for dataset loading
 #'
 #' Loads the dataset and checks that it contains exactly 50 data columns
@@ -339,7 +339,7 @@ Execution halted
 ```
 **Fix: 
 
-```{r}
+```{r load_data_function_fixed}
 # ---- Step 2 Functions ----
 
 #' Load the dataset from file
@@ -366,7 +366,7 @@ load_dataset <- function(file_path) {
 
 **After this fix, the data was properly loaded. **
 
-```{r eval=TRUE}
+```{r load_data_fixed}
 # ---- Run Step 2 ----
 df <- load_dataset(FILE_PATH)
 test_dataset_dimensions(df)
@@ -393,7 +393,7 @@ The output is a data frame with the same dimensions, containing normalized value
 
 #### ✅ Function: normalize_expression_data
 
-```{r}
+```{r normalize_data_function}
 #' Normalize gene expression data
 #'
 #' Applies a two-step normalization procedure to a data frame of gene expression values:
@@ -434,7 +434,7 @@ normalize_expression_data <- function(df) {
 ```
 
 
-```{r}
+```{r normalize_data}
 # ---- Step 3: Normalize data ----
 normalized_df <- normalize_expression_data(df)
 ```
@@ -462,7 +462,7 @@ Absolutely! Below is a **unit test** function that checks:
 
 #### ✅ Unit Test: test_normalized_data
 
-```{r}
+```{r test_normalized_data_function}
 #' Unit test for normalized expression data
 #'
 #' Verifies that each row of the normalized data has approximately zero mean
@@ -499,7 +499,7 @@ test_normalized_data <- function(norm_df, epsilon = 1e-12) {
 
 #### 🔚 Call this after normalization:
 
-```{r}
+```{r test_normalized_data}
 # ---- Step 3: Normalize data and test ----
 normalized_df <- normalize_expression_data(df)
 test_normalized_data(normalized_df)
@@ -529,14 +529,14 @@ I'll use `pheatmap`, a popular and simple R package. Let me know if you'd prefer
 
 If `pheatmap` is not installed:
 
-```{r eval=FALSE}
+```{r install_pheatmap, eval=FALSE}
 install.packages("pheatmap")
 ```
 
 #### ✅ Heatmap function: plot_expression_heatmap()
 
 
-```{r}
+```{r plot_expression_heatmap_function}
 #' Plot a heatmap of gene expression data
 #'
 #' Produces a heatmap from a data frame, with genes in rows and samples/time points in columns.
@@ -575,7 +575,7 @@ plot_expression_heatmap <- function(df, title = "Expression Heatmap") {
 
 At the end of your script, add:
 
-```{r}
+```{r plot_expression_raw_normalized}
 # ---- Step 4: Heatmaps ----
 
 # Heatmap before normalization
@@ -603,7 +603,7 @@ Certainly! You can conditionally install and then load pheatmap with the followi
 
 #### 📦 Conditional install & load for pheatmap
 
-```{r}
+```{r install_pheatmap_if_required}
 # Check if 'pheatmap' is installed; install if not, then load
 if (!requireNamespace("pheatmap", quietly = TRUE)) {
   install.packages("pheatmap")
@@ -613,7 +613,7 @@ library(pheatmap)
 
 #### 🔄 Reusable utility function (optional)
 
-```{r}
+```{r ensure_package}
 #' Ensure that a package is installed and loaded
 #'
 #' @param pkg The name of the package to install and load.
@@ -647,7 +647,7 @@ cluster_cols = FALSE
 
 #### ✅ Updated heatmap function: plot_expression_heatmap()
 
-```{r}
+```{r plot_expression_heatmap_function_2}
 #' Plot a heatmap of gene expression data (with fixed row/column order)
 #'
 #' Produces a heatmap from a data frame, with genes in rows and samples/time points in columns.
@@ -688,7 +688,7 @@ plot_expression_heatmap <- function(df, title = "Expression Heatmap") {
 #### 📊 Usage (unchanged)
 
 
-```{r}
+```{r plot_expression_raw_normalized_2}
 # Heatmap before normalization (preserves column order from original file)
 plot_expression_heatmap(df, title = "Raw Expression Data")
 
@@ -724,7 +724,7 @@ All functions assume:
 
 #### 1. 🔢 Sort by value in a given column
 
-```{r}
+```{r order_genes_by_column_function}
 #' Order genes by decreasing expression in a given column
 #'
 #' @param df A data frame with genes in rows and samples/time points in columns.
@@ -740,7 +740,7 @@ order_genes_by_column <- function(df, col_index = 1) {
 
 #### 2. 📈 Sort by first principal component (PCA)
 
-```{r}
+```{r order_genes_by_pca_function}
 #' Order genes by their projection on the first principal component (PCA)
 #'
 #' @param df A data frame with genes in rows and samples in columns.
@@ -757,7 +757,7 @@ order_genes_by_pca <- function(df) {
 
 #### 3. 🔁 Sort by phase of the Fourier transform
 
-```{r}
+```{r order_genes_by_fft_phase_function}
 #' Order genes by the phase of the dominant frequency component (FFT)
 #'
 #' Assumes that the expression pattern follows a periodic signal.
@@ -787,7 +787,7 @@ order_genes_by_fft_phase <- function(df) {
 
 Let’s say your normalized data is stored in `normalized_df`:
 
-```{r}
+```{r plot_ordered_genes}
 # Order genes by different methods
 df_col_sorted <- order_genes_by_column(normalized_df, col_index = 1)
 df_pca_sorted <- order_genes_by_pca(normalized_df)
@@ -816,7 +816,7 @@ Yes — to export each heatmap to a high-resolution PNG file, you can wrap your 
 
 #### ✅ Updated version of plot_expression_heatmap() with PNG export
 
-```{r}
+```{r plot_expression_heatmap_to_png_function}
 #' Plot and export a heatmap of gene expression data
 #'
 #' Exports a heatmap as a high-resolution PNG image.
@@ -872,7 +872,7 @@ plot_expression_heatmap_to_png <- function(df, filename, title = NULL,
 
 #### 📊 Example usage
 
-```{r}
+```{r plot_heatmaps}
 # Save heatmaps to PNG with 1 pixel per gene
 plot_expression_heatmap_to_png(df_col_sorted, "heatmap_sorted_by_column.png",
                                title = "Sorted by Expression (1st Column)")
@@ -905,7 +905,7 @@ This function:
 - Orders the rows (genes) by increasing time of their peak.
 
 
-```{r}
+```{r order_genes_by_peak_time_function}
 #' Order genes by the time point (column index) of their maximum expression
 #'
 #' @param df A numeric data frame (genes in rows, time points in columns)
@@ -921,7 +921,7 @@ order_genes_by_peak_time <- function(df) {
 
 #### 🔁 Example usage
 
-```{r}
+```{r order_genes_by_peak_time}
 df_peak_sorted <- order_genes_by_peak_time(normalized_df)
 
 plot_expression_heatmap_to_png(df_peak_sorted,
@@ -942,7 +942,7 @@ Here’s an updated version using `pheatmap` and a centered three-color scale:
 
 #### ✅ Updated plot_expression_heatmap_to_png() with red–white–blue color scale
 
-```{r}
+```{r plot_expression_heatmap_to_png_function_2}
 #' Plot and export a heatmap with red-white-blue color scale
 #'
 #' @param df A numeric data frame (genes × time points)
@@ -998,7 +998,7 @@ plot_expression_heatmap_to_png <- function(df, filename, title = NULL,
 
 #### 🧪 Example usage
 
-```{r}
+```{r plot_heatmap_sorted_by_peak_time}
 plot_expression_heatmap_to_png(df_peak_sorted,
   filename = "heatmap_sorted_by_peak_time_rwb.png",
   title = "Sorted by Time of Maximum Expression (Red–White–Blue)"
@@ -1022,7 +1022,7 @@ This function is essentially what you described earlier (and is consistent with 
 
 #### 🔢 Function 4 — Order genes by the column of their maximum expression
 
-```{r}
+```{r order_genes_by_max_column_function}
 #' Order genes by the time point (column index) of their maximum expression
 #'
 #' This function finds the column (time point) where each gene reaches
@@ -1044,7 +1044,7 @@ order_genes_by_max_column <- function(df) {
 
 #### 🔁 Example usage
 
-```{r}
+```{r heatmap_sorted_by_max_column}
 # Apply the ordering
 df_sorted_maxcol <- order_genes_by_max_column(normalized_df)
 
