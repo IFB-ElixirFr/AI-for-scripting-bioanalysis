@@ -284,6 +284,8 @@ order_genes_by_pca <- function(df) {
   df[order(pc1_scores), ]
 }
 
+
+
 #' Order genes by the phase of the dominant frequency component (FFT)
 #'
 #' Assumes that the expression pattern follows a periodic signal.
@@ -306,6 +308,24 @@ order_genes_by_fft_phase <- function(df) {
   phases <- apply(df, 1, get_phase)
   df[order(phases), ]
 }
+
+#' Order genes by the time point (column index) of their maximum expression
+#'
+#' This function finds the column (time point) where each gene reaches
+#' its maximum expression, and orders genes accordingly.
+#'
+#' @param df A numeric data frame (genes in rows, time points in columns)
+#'
+#' @return A reordered data frame, sorted by column index of maximum expression
+#' @export
+order_genes_by_max_column <- function(df) {
+  # For each gene (row), find the column index of its maximum value
+  max_columns <- apply(df, 1, which.max)
+  
+  # Order the rows (genes) by increasing column index of max expression
+  df[order(max_columns), ]
+}
+
 
 
 #' Plot and export a heatmap with red-white-blue color scale
@@ -390,6 +410,10 @@ df_col_sorted_2 <- order_genes_by_column(normalized_df, col_index = 2)
 df_pca_sorted <- order_genes_by_pca(normalized_df)
 df_fft_sorted <- order_genes_by_fft_phase(normalized_df)
 
+# Apply the ordering
+df_sorted_maxcol <- order_genes_by_max_column(normalized_df)
+
+
 # Plot heatmaps
 plot_expression_heatmap(df_col_sorted_1, title = "Sorted by Expression (1st Column)")
 # JvH added this line to tes the effect of gene ordering on the second column
@@ -411,3 +435,13 @@ plot_expression_heatmap_to_png(df_pca_sorted, "heatmap_sorted_by_pca.png",
 plot_expression_heatmap_to_png(df_fft_sorted, "heatmap_sorted_by_fft.png",
                                title = "Sorted by FFT Phase")
 
+# Plot the heatmap
+plot_expression_heatmap_to_png(
+  df_sorted_maxcol,
+  filename = "heatmap_sorted_by_max_column.png",
+  title = "Sorted by Column of Maximum Expression"
+)
+
+
+
+# ---- End of analysis ----
