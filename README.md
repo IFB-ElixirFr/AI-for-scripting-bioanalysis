@@ -36,6 +36,11 @@ Le 13 juin 2025, sur le campus des Grands Moulins, 75013 Paris.
 | David Janisek | Présentation de Pléïade | Démo en direct |
 | Vincent Ranwez | Accélérer sans déraper : maîtriser son code à l’ère de l’IA | [pdf](slides/2-3_Vincent-Ranwez_IA-bioscripting_2025-06-13.pdf) |
 
+Vidéos de la matinée: <https://u-paris.zoom.us/rec/share/tF6DkEUbP_dZb6HatZm7HKqIRro42aUJmeiFmM4z44m99vmvpfGOswT7GXdpealJ.XAXhPRzQT2S0DjcO?startTime=1749798828000>
+
+
+
+
 ## Ateliers pratiques de l'après-midi
 
 ### Diaporama d'introduction aux deux ateliers
