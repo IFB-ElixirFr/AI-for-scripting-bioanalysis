@@ -1095,7 +1095,8 @@ This is the script in the state we reached at the end of the practical session. 
 
 #### Genes sorted based on the column with their max value
 
-![Heat map with genes sorted by the column of max expression](../../figures/heatmap_sorted_by_max_column.png)
+![Heat map with genes sorted by column of maximal expression value](../../figures/heatmap_sorted_by_max_column.png)
+
 
 ## Post-session improvements
 
